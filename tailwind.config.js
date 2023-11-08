@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        heading: ["Garamond"],
+        bodyFont: ["Alpina"]
+      },
+      colors: {
+        darkGrey: "#3C422E",
+        lightBackground: "#f6e6d9",
+        highlight: "#FFF4EC"
+      }
+    },
+
   },
   plugins: [],
 }
