@@ -45,7 +45,7 @@ html, body {
 }
 
 .slider-button {
-    @apply rounded-full border-black border-2 overflow-hidden flex justify-center items-center transition-colors;
+    @apply cursor-pointer rounded-full border-black border-2 overflow-hidden flex justify-center items-center transition-colors;
 }
 
 .slider-button>img {
@@ -56,12 +56,24 @@ html, body {
     @apply absolute lg:top-4 lg:left-10;
 }
 
-.radio-before::before {
-    @apply content-[''] border-[1px] rounded-full border-black
-}
-
 .accordion-button {
     @apply transition-colors cursor-pointer
+}
+
+.checkbox {
+    @apply transition-colors
+}
+
+.slide-button-small {
+    @apply cursor-pointer;
+}
+
+.subscribe-button {
+    @apply transition-transform
+}
+
+.button-background {
+    background-image: url("https://www.publicdomainpictures.net/pictures/20000/velka/checkerboard-pattern.jpg");
 }
 
 .accordion-button-selected {
