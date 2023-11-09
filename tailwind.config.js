@@ -8,12 +8,15 @@ export default {
     extend: {
       fontFamily: {
         heading: ["Garamond"],
-        bodyFont: ["Alpina"]
+        bodyFont: ["Alpina"],
+        bodyFontLight: ["Alpina-Light"]
       },
       colors: {
         darkGrey: "#3C422E",
         lightBackground: "#f6e6d9",
-        highlight: "#FFF4EC"
+        highlight: "#FFF4EC",
+        greyText: "#9d9b8d",
+        buttonGreen: "#d1e030"
       }
     },
 
